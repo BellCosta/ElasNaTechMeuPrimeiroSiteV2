@@ -3,6 +3,18 @@ body{
     margin-left: 12%;
     margin-right: 12%;
 }
+header{
+display: flex;
+}
+header img{
+    height: auto;
+    width: 25%;
+}
+.teste li{
+    display: inline-block;
+    white-space: nowrap;
+    
+}
 .text_background{
     position: relative;
     display: inline-block;

@@ -4,17 +4,35 @@ body{
     margin-right: 12%;
 }
 header{
-display: flex;
-}
-header img{
-    height: auto;
-    width: 25%;
-}
-.teste li{
-    display: inline-block;
-    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     
 }
+header img{
+    width: 15%;
+    height: auto;
+}
+.menu{
+    display: flex;
+    white-space: nowrap;
+    gap: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .text_background{
     position: relative;
     display: inline-block;
@@ -93,4 +111,8 @@ header img{
     .background{
         filter: blur(3px);
     }
+    header img{
+        min-width: 100%;
+    }
+
   }
